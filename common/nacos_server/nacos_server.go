@@ -34,17 +34,17 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/nacos-group/nacos-sdk-go/v2/common/remote/rpc/rpc_request"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/remote/rpc/rpc_request"
 
-	"github.com/nacos-group/nacos-sdk-go/v2/common/monitor"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/monitor"
 
-	"github.com/nacos-group/nacos-sdk-go/v2/common/constant"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/http_agent"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/logger"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/nacos_error"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/security"
-	"github.com/nacos-group/nacos-sdk-go/v2/inner/uuid"
-	"github.com/nacos-group/nacos-sdk-go/v2/util"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/constant"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/http_agent"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/logger"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/nacos_error"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/security"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/inner/uuid"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/util"
 )
 
 type NacosServer struct {

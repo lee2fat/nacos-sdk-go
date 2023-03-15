@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nacos-group/nacos-sdk-go/v2/common/constant"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/constant"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
@@ -157,7 +157,7 @@ func getEncoder() zapcore.EncoderConfig {
 	}
 }
 
-//SetLogger sets logger for sdk
+// SetLogger sets logger for sdk
 func SetLogger(log Logger) {
 	logLock.Lock()
 	defer logLock.Unlock()

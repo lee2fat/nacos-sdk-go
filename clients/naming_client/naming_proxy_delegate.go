@@ -19,15 +19,15 @@ package naming_client
 import (
 	"context"
 
-	"github.com/nacos-group/nacos-sdk-go/v2/clients/naming_client/naming_cache"
-	"github.com/nacos-group/nacos-sdk-go/v2/clients/naming_client/naming_grpc"
-	"github.com/nacos-group/nacos-sdk-go/v2/clients/naming_client/naming_http"
-	"github.com/nacos-group/nacos-sdk-go/v2/clients/naming_client/naming_proxy"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/constant"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/http_agent"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/nacos_server"
-	"github.com/nacos-group/nacos-sdk-go/v2/model"
-	"github.com/nacos-group/nacos-sdk-go/v2/util"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/clients/naming_client/naming_cache"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/clients/naming_client/naming_grpc"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/clients/naming_client/naming_http"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/clients/naming_client/naming_proxy"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/constant"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/http_agent"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/nacos_server"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/model"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/util"
 )
 
 // NamingProxyDelegate ...

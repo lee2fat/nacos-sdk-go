@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/nacos-group/nacos-sdk-go/v2/common/file"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/file"
 )
 
 func TestGetFailover(t *testing.T) {

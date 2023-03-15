@@ -21,17 +21,17 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/nacos-group/nacos-sdk-go/v2/util"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/util"
 
-	"github.com/nacos-group/nacos-sdk-go/v2/common/remote/rpc"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/remote/rpc/rpc_request"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/remote/rpc/rpc_response"
-	"github.com/nacos-group/nacos-sdk-go/v2/model"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/remote/rpc"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/remote/rpc/rpc_request"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/remote/rpc/rpc_response"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/model"
 
-	"github.com/nacos-group/nacos-sdk-go/v2/clients/nacos_client"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/constant"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/http_agent"
-	"github.com/nacos-group/nacos-sdk-go/v2/vo"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/clients/nacos_client"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/constant"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/http_agent"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/vo"
 	"github.com/stretchr/testify/assert"
 )
 

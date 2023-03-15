@@ -23,11 +23,11 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/nacos-group/nacos-sdk-go/v2/common/constant"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/file"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/logger"
-	"github.com/nacos-group/nacos-sdk-go/v2/model"
-	"github.com/nacos-group/nacos-sdk-go/v2/util"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/constant"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/file"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/logger"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/model"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/util"
 	"github.com/pkg/errors"
 )
 

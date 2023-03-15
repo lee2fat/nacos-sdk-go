@@ -27,20 +27,20 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/nacos-group/nacos-sdk-go/v2/common/monitor"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/monitor"
 
+	"gitee.com/LeeScott/nacos-sdk-go/v2/clients/cache"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/clients/nacos_client"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/constant"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/logger"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/nacos_error"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/remote/rpc/rpc_request"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/remote/rpc/rpc_response"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/inner/uuid"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/model"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/util"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/vo"
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/kms"
-	"github.com/nacos-group/nacos-sdk-go/v2/clients/cache"
-	"github.com/nacos-group/nacos-sdk-go/v2/clients/nacos_client"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/constant"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/logger"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/nacos_error"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/remote/rpc/rpc_request"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/remote/rpc/rpc_response"
-	"github.com/nacos-group/nacos-sdk-go/v2/inner/uuid"
-	"github.com/nacos-group/nacos-sdk-go/v2/model"
-	"github.com/nacos-group/nacos-sdk-go/v2/util"
-	"github.com/nacos-group/nacos-sdk-go/v2/vo"
 )
 
 const (

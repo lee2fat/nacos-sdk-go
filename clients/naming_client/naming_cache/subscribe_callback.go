@@ -21,10 +21,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/nacos-group/nacos-sdk-go/v2/clients/cache"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/logger"
-	"github.com/nacos-group/nacos-sdk-go/v2/model"
-	"github.com/nacos-group/nacos-sdk-go/v2/util"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/clients/cache"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/logger"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/model"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/util"
 )
 
 type SubscribeCallback struct {

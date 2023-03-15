@@ -28,9 +28,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/nacos-group/nacos-sdk-go/v2/common/constant"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/http_agent"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/logger"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/constant"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/http_agent"
+	"gitee.com/LeeScott/nacos-sdk-go/v2/common/logger"
 )
 
 type AuthClient struct {
